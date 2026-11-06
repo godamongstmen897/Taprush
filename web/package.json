@@ -1,0 +1,26 @@
+{
+  "name": "taprush-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5",
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "server-only": "^0.0.1",
+    "viem": "^2",
+    "wagmi": "^2"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "^6.0.3"
+  }
+}

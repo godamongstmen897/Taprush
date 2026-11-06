@@ -1,0 +1,10 @@
+{
+  "network": "celoSepolia",
+  "chainId": 11142220,
+  "gd": "0xfcdB2B1d2179108Bde1aa2618beF0fF0190Cbf1C",
+  "game": "0x83F425d92eC3b2d628fe5211Dad9C89f6988C4B2",
+  "verifier": "0x6dF355b84feC25D974E933BCe7aE9C34CA581D88",
+  "entryFee": "100000000000000000000",
+  "treasuryBps": 500,
+  "deployedAt": "2026-11-06T14:58:25.684Z"
+}

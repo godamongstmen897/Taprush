@@ -1,0 +1,13 @@
+# secrets: never commit
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules
+.next
+contracts/artifacts
+contracts/cache
+
+# local backup copy of the web app
+web-backup
