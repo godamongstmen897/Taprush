@@ -11,3 +11,4 @@ contracts/cache
 
 # local backup copy of the web app
 web-backup
+*.key
