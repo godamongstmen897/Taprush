@@ -414,7 +414,7 @@ export function Game({ onScored }: Props) {
           break;
         } catch (e) {
           const name = revertName(e);
-          if (justApproved && name === "ERC20InsufficientAllowance" && attempt < 5) {
+          if (justApproved && (name === "ERC20InsufficientAllowance" || name === "Error") && attempt < 8) {
             await new Promise((r) => setTimeout(r, 1500));
             continue;
           }

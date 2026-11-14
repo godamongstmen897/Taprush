@@ -14,7 +14,7 @@ subtask(TASK_COMPILE_SOLIDITY_GET_SOLC_BUILD, async (args, hre, runSuper) => {
       compilerPath,
       isSolcJs: true,
       version: "0.8.24",
-      longVersion: require("solc").version(),
+      longVersion: require("solc").version().replace(".Emscripten.clang", ""),
     };
   }
   return runSuper();

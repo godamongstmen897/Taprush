@@ -1,0 +1,10 @@
+{
+  "network": "celo",
+  "chainId": 42220,
+  "gd": "0x62B8B11039FcfE5aB0C56E502b1C372A3d2a9c7A",
+  "game": "0xbDc1f4656643b18A95656EbF3580eCa4c60D5903",
+  "verifier": "0x6D5d2432D67e17bAeC8731f3a72800217269C7ff",
+  "entryFee": "100000000000000000000",
+  "treasuryBps": 500,
+  "deployedAt": "2026-11-14T13:03:32.106Z"
+}
